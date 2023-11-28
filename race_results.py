@@ -13,7 +13,7 @@ options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 # List of years to iterate through
-years = list(range(2023, 2022, -1))  # Update the range accordingly
+years = list(range(2023, 1949, -1))  # Update the range accordingly
 
 # Create empty lists to store the data
 all_data_start = []
