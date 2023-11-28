@@ -7,6 +7,14 @@ def load_data():
     # Load data from Excel file
     excel_path = "datasets/driver_world_standings.xlsx"  
     df = pd.read_excel(excel_path)
+    # Add base URL to "Image Filename" column
+    image_base_url = "https://github.com/tamara-qassem/f1/blob/main/"
+    df["Image Filename"] = image_base_url + df["Image Filename"]
+
+    # Add base URL to "Number Filename" column
+    number_base_url = "https://github.com/tamara-qassem/f1/blob/main/"
+    df["Number Filename"] = number_base_url + df["Number Filename"]
+    
     return df
 
 def main():
