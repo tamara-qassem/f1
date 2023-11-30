@@ -89,5 +89,5 @@ Exciting features and analyses are in the works! Here's a sneak peek at what's c
 - **Interactive Race Results Analysis:**
   Stay tuned for an interactive analysis of the `race_results.xlsx` data. Explore race-related information throughout the years, including world champions, car constructor champions, and more.
 
-I'm continuously working on improving my skills or analyses; however, I did want to share what I've done so far. Check back for updates and new features!
+I'm continuously working on improving my skills and analyses; however, I did want to share what I've done so far. Check back for updates and new features!
 
