@@ -43,6 +43,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. **Webscrape and Save Driver Standings Data**
+   
 To gather the 2023 driver standings data, run the following command:
 ```bash
 python driver_standings.py
@@ -50,6 +51,7 @@ python driver_standings.py
 This script extracts Championship Standing position, Points, Driver names, Car details, and the file paths of the Image Filename and Number Filename. The scraped data is then saved in `datasets/driver_world_standings.xlsx`. Profile images of drivers are stored in the `Driver_Profile_Images` folder, and number images are stored in the `Driver_Number_Images` folder.
 
 2. **Webscrape Race Results Data**
+   
 Retrieve comprehensive race results data from 1950 to 2023 with the command:
 ```bash
 python race_results.py
@@ -57,6 +59,7 @@ python race_results.py
 The script webscrapes race results and saves the data in `datasets/race_results.xlsx`. The data includes the Country the race took place in, the driver's finshing Position, the driver's Number, the Driver name, the Car they drove, the number of Laps completed, the finishing Time, Points earned, and the Year the race occured.
 
 3. **Clean and Separate Race Results Data**
+
 Clean and organize the race results data with the following command:
 ```bash
 python cleaning_results.py
@@ -64,6 +67,7 @@ python cleaning_results.py
 This script separates the race results into two files: `datasets/race_results_overall.xlsx` contains overall winners from 1950 to 2023 per race, while `datasets/race_results_detail.xlsx` provides detailed results for each driver per race.
 
 4. **Run Streamlit App**
+
 Initiate your Streamlit app with the following command:
 ```bash
 streamlit run standings_page.py
