@@ -2,7 +2,7 @@
 
 Welcome to the F1 Stats Dashboard, your pit stop for all things Formula 1! Imagine a place where data meets the racetrack, bringing you the exhilarating world of Formula 1 racing through the lens of data analysis.
 
-We all have our obsessions, and mine revolves around the fast-paced, high-octane world of Formula 1. What do you do when you're passionate about something? You create a project around it, obviously! So, in a burst of enthusiasm (and maybe a touch of caffeine), I decided to bring together my love for data and the thrilling universe of F1. Get ready for a data-driven ride that's faster than a pit stop!
+We all have our obsessions, and mine revolves around the fast-paced, high-octane world of Formula 1. What do you do when you're passionate about something? You create a project around it, obviously! So, in a burst of enthusiasm, I decided to bring together my love for data and the thrilling universe of F1. Get ready for a data-driven ride that's faster than a pit stop!
 
 Dataset Wonderland 📊🏎️
 
