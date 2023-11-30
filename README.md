@@ -40,6 +40,7 @@ To run the project, ensure you have the necessary dependencies installed. You ca
 pip install -r requirements.txt
 ```
 
+
 ## Usage
 
 1. **Webscrape and Save Driver Standings Data**
@@ -49,6 +50,7 @@ To gather the 2023 driver standings data, run the following command:
 python driver_standings.py
 ```
 This script extracts Championship Standing position, Points, Driver names, Car details, and the file paths of the Image Filename and Number Filename. The scraped data is then saved in `datasets/driver_world_standings.xlsx`. Profile images of drivers are stored in the `Driver_Profile_Images` folder, and number images are stored in the `Driver_Number_Images` folder.
+
 
 
 2. **Webscrape Race Results Data**
@@ -76,5 +78,6 @@ Initiate your Streamlit app with the following command:
 streamlit run standings_page.py
 ```
 This will allow you to view the driver standings data extracted at `http://localhost:8501`.
+
 I have personally deployed this app, you can check it out by clicking on this [link](https://tamara-f1.streamlit.app/)!
 
